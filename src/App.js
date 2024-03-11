@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
+        <Route path='https://yonghoon1013.github.io/test' element={<Home/>}></Route>
         <Route path='list' element={<List/>}></Route>
         <Route path='my' element={<My/>}></Route>
       </Routes>
